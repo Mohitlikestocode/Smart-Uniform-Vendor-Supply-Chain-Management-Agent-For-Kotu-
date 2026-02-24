@@ -1,23 +1,27 @@
-# 🤖 Kotu's Intelligent System
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A premium, state-of-the-art Inventory & Supply Chain Management platform with an integrated Artificial Intelligence assistant. Specifically engineered for uniform vendor operations, this system bridges the gap between complex logistical data and seamless user interaction.
+# Kotu's Intelligent System
+
+A premium, state-of-the-art Inventory & Supply Chain Management platform with an integrated **Deterministic Expert System**. Specifically engineered for uniform vendor operations, this system uses a refined, rule-based approach to bridge the gap between complex logistical data and seamless user interaction.
 
 ---
 
 ## 🌟 Key Features
 
-### 💬 Intelligent Conversational Assistant
-The heart of the system is the **Kotu Assistant**, a smart chatbot designed to handle complex natural language queries for both customers and administrators.
+### 🤖 Deterministic Intelligent Assistant
+The heart of the system is the **Kotu Assistant**, a high-precision chatbot that follows a robust rule-based logic to handle complex supply chain queries.
 
-- **Dynamic Slot Filling**: Automatically identifies schools (Shiv Nadar, Knowledge Habitat), categories (Uniforms, Shoes, Socks), colors, and sizes from plain text.
-- **Smart Size Guidance**: If a user is unsure of their size, Kotu provides an interactive conversion guide (UK Chest Sizes to Age-based sizes) and directs them to the best-stocked outlet.
-- **Multi-Turn Context**: Maintains conversational state to guide users through a logical check flow (School → Category → Color → Size → Outlet).
+- **Deterministic Slot Filling**: Precisely identifies schools (Shiv Nadar, Knowledge Habitat), categories (Uniforms, Shoes, Socks), colors, and sizes based on defined keyword mapping.
+- **Rule-Based Size Guidance**: Follows a strict logical flow to assist users unsure of their size, providing a reliable conversion guide (UK Chest Sizes to Age-based sizes).
+- **Logical Flow Management**: Maintains state across multiple turns to guide users through a structured availability check (School → Category → Color → Size → Outlet).
 
 ### 📊 Advanced Admin Analytics
 Empower your supply chain decisions with data-driven insights:
-- **Time-Based Analysis**: Query today's, yesterday's, or the past week's performance directly through chat.
+- **Time-Based Analysis**: Query today's, yesterday's, or the past week's performance directly through the deterministic interface.
 - **Refill Intelligence**: Proactive alerts for items that are low in stock across specific regional centers.
-- **Popularity Tracking**: Real-time identification of the most popular items by volume.
+- **Popularity Tracking**: Real-time identification of the most popular items based on sales logs.
 
 ### 🖥️ High-Fidelity Dashboard
 A modern, dark-themed interface built for performance and aesthetics:
@@ -34,7 +38,7 @@ A modern, dark-themed interface built for performance and aesthetics:
 - **Styling**: Vanilla CSS + Tailwind CSS (Glassmorphism & Dark Mode)
 - **Backend**: Node.js + Express
 - **Database**: SQLite (Fast, Local-first persistence)
-- **AI Engine**: Google Gemini API (Configurable)
+- **Logic Engine**: Deterministic Slot-Filling & Intent Recognition
 
 ---
 
@@ -42,7 +46,6 @@ A modern, dark-themed interface built for performance and aesthetics:
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18+)
-- A Gemini API Key
 
 ### Installation
 
@@ -57,13 +60,7 @@ A modern, dark-themed interface built for performance and aesthetics:
    npm install
    ```
 
-3. **Configure Environment**
-   Create a `.env` file in the root directory and add your credentials:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-
-4. **Launch Application**
+3. **Launch Application**
    ```bash
    npm run dev
    ```
@@ -71,17 +68,17 @@ A modern, dark-themed interface built for performance and aesthetics:
 
 ---
 
-## 📋 Conversational Examples
+## 📋 Conversational Examples (Logical Flow)
 
 **Customer Queries:**
-- *"Do you have the SNS sports uniform in red, size 10-12Y at outlet 1?"*
-- *"I'm looking for shoes for Shiv Nadar school but I don't know my size help."*
-- *"Check availability for Knowledge Habitat socks in size 8."*
+- *"Check SNS uniform in size 10-12Y at outlet 1"*
+- *"I'm looking for shoes for Shiv Nadar school but I don't know my size"*
+- *"Check availability for Knowledge Habitat socks in size 8"*
 
 **Admin/Manager Queries:**
-- *"Give me today's analysis."*
+- *"Give me today's analysis"*
 - *"Is there any stock that needs to get refilled?"*
-- *"Show me the summary for the last 7 days."*
+- *"Show me the summary for the last 7 days"*
 
 ---
 
